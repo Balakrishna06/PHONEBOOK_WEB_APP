@@ -1,0 +1,23 @@
+# view resolvers
+spring:
+  mvc:
+    view:
+      prefix: /views/
+      suffix: .jsp
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521/XE
+    username: PHNBK_LOCAL
+    password: abc_123
+  jpa:
+    properties:
+       hibernate:
+        format_sql: true
+        show_sql: true
+
+
+#Server port number
+server:
+  port: 4040
+  
+  
